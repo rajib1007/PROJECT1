@@ -1,7 +1,9 @@
-# Student_enrollment_system_HIVE
+### Student_enrollment_system_HIVE
 An enrollment system is to help admission teams ultimately enroll more students.
 
-MYSQL:
+
+
+# MYSQL: 
 
 CREATE TABLE master id int, name varchar(255) NOT NULL, email varchar(255) NOT NULL, mobile int, course varchar(255) NOT NULL, fee int, discount int, status1 varchar(255) NOT NULL, status2 varchar(255) NOT NULL);
 
@@ -20,15 +22,18 @@ LOAD DATA LOCAL INFILE  '/home/cloudera/Desktop/payment_table' INTO TABLE master
 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
 
                     
+![image](https://user-images.githubusercontent.com/63140467/131075002-5a514c1b-2d9f-418b-8209-5042dd5bbc94.png)
 
+# SCOOP: 
+### MOVING DATA FROM MYSQL TO HDFS
 
 sqoop import --connect jdbc:mysql://192.168.150.132/RAJIB --username root --password cloudera --table master --target-dir /user/cloudera/master -m 1
 
-MASTER TABLE:
+# MASTER TABLE:
 
-COMMANDS TO BE RUN BEFORE CREATING ORC TABLE:
+## COMMANDS TO BE RUN BEFORE CREATING ORC TABLE:
 
-#(must run these commands aftering entering into HIVE and after entering into database i,e use databse_name;)#
+# (must run these commands aftering entering into HIVE and after entering into database i,e use databse_name;)
 
 set hive.support.concurrency = true;
 set hive.enforce.bucketing = true;
