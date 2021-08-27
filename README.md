@@ -10,6 +10,8 @@ LOAD DATA LOCAL INFILE '/home/cloudera/Desktop/STUDENT_DETAILS' INTO TABLE maste
 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
 
 
+![image](https://user-images.githubusercontent.com/63140467/131074764-e333f98a-3a42-474b-b25e-ef01399d49c8.png)
+
                                 
 
 CREATE TABLE PAYMENT (id int, name varchar(255) NOT NULL, email varchar(255) NOT NULL, mobile int, course varchar(255) NOT NULL,total_fee int, paid int, ,payment_mode varchar(255) NOT NULL, installment int NOT NULL, due_date DATE);
