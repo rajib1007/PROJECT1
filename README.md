@@ -41,4 +41,18 @@ List of features ready and TODOs for future development
 
 # GETTING STARTED
 
-GitHub URL: 
+GitHub clone URL: https://github.com/rajib1007/PROJECT1.git
+
+* Download VMware Workstation:  https://drive.google.com/file/d/1v0dzEJK-cDD7nL7cX5mbJ4evl3s3u-Ib/view?usp=sharing
+* Download CDH5 https://downloads.cloudera.com/demo_vm/vmware/cloudera-quickstart-vm-5.13.0-0-vmware.zip
+* Unzip CDH5 file
+* Run CDH5 on VMware Workstation Pro
+* Run MYSQL on terminal
+* Load Data after creating table
+* Move data from Mysql to HDFS using Sqoop
+* Create Hive tables and perform operation
+
+# CONTRIBUTERS
+* SIDHANT SEHGAL
+* ABHILAS REDDY
+* ALOK MISHRA
