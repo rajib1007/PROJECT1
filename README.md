@@ -1,12 +1,13 @@
 # STUDENT ENQUIRY DATABASE PROJECT
 
+This project will consist of using big data tools to answer questions about Student Enquiry Database. An enrollment system combines all activities involved in the entire enrollment process and integrates them into a system. This way, everything happens in one place, both online and offline. The conversation happened with the prospects, their interests and motivations, their personal details, the meetings scheduled with them. There are a series of basic analysis questions. The questions should be answered using Hive.
 An enrollment system is to help admission teams ultimately enroll more students.
 
 
 
 # MYSQL: 
 
-### CREATING MASTER TABLE ON MYSQL
+### CREATING MASTER(Enquiry) TABLE ON MYSQL
 
 CREATE TABLE master id int, name varchar(255) NOT NULL, email varchar(255) NOT NULL, mobile int, course varchar(255) NOT NULL, fee int, discount int, status1 varchar(255) NOT NULL, status2 varchar(255) NOT NULL);
 
