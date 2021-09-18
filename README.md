@@ -4,8 +4,6 @@ This project will consist of using big data tools to answer questions about Stud
 Our aim is to help admission teams ultimately enroll more students. 
 
 
-![image](https://user-images.githubusercontent.com/63140467/133883998-6e93eaa7-dcf2-42e6-8ed4-b4f6370a8cc1.png)
-
 
 # TOOLS & TECHNOLOGIES USED
 
@@ -18,6 +16,13 @@ Our aim is to help admission teams ultimately enroll more students.
 * HDFS
 * HUE
 
+# FLOW OF THE PROJECT
+
+![image](https://user-images.githubusercontent.com/63140467/133884068-e7750f66-c784-4ba4-8625-f6c09846d522.png)
+
+# DATA FLOW DIAGRAM 
+
+![image](https://user-images.githubusercontent.com/63140467/133884059-fde2f14f-3649-4b23-bff8-211bc1d8d769.png)
 
 
 
