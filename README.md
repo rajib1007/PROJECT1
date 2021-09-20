@@ -1,4 +1,4 @@
-# STUDENT ENQUIRY DATABASE PROJECT
+# STUDENT ENQUIRY DATABASE ANALYSIS
 
 This project will consist of using big data tools to answer questions about Student Enquiry Database. An student enquiry dataset combines all activities involved in the entire enrollment process and integrates them into a system. This way, everything happens in one place, both online and offline. The conversation happened with the prospects, their interests and motivations, their personal details, the meetings scheduled with them. There are a series of basic analysis questions. The questions should be answered using Hive.
 Our aim is to help admission teams ultimately enroll more students. 
