@@ -52,7 +52,7 @@ GitHub clone URL: https://github.com/rajib1007/PROJECT1.git
 * Move data from Mysql to HDFS using Sqoop
 * Create Hive tables and perform operation
 
-# CONTRIBUTERS
+# CONTRIBUTORS
 * SIDHANT SEHGAL
 * ABHILAS REDDY
 * ALOK MISHRA
