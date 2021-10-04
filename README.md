@@ -16,15 +16,7 @@ Our aim is to help admission teams ultimately enroll more students.
 * HDFS
 * HUE
 
-# FLOW OF THE PROJECT
-
-![image](https://user-images.githubusercontent.com/63140467/133884068-e7750f66-c784-4ba4-8625-f6c09846d522.png)
-
-# DATA FLOW DIAGRAM 
-
-![image](https://user-images.githubusercontent.com/63140467/133884059-fde2f14f-3649-4b23-bff8-211bc1d8d769.png)
-
-# FEATURES
+## FEATURES
 List of features ready and TODOs for future development
 
 * Management team will be able to fetch number of students enrolled.
@@ -39,7 +31,7 @@ List of features ready and TODOs for future development
 
 * In this project all the tables overwritten from  master table. So we do not need to update each table individually.
 
-# GETTING STARTED
+## GETTING STARTED
 
 GitHub clone URL: https://github.com/rajib1007/PROJECT1.git
 
@@ -51,8 +43,25 @@ GitHub clone URL: https://github.com/rajib1007/PROJECT1.git
 * Load Data after creating table
 * Move data from Mysql to HDFS using Sqoop
 * Create Hive tables and perform operation
+## Usage
+#### FLOW OF THE PROJECT
 
-# CONTRIBUTORS
+![image](https://user-images.githubusercontent.com/63140467/133884068-e7750f66-c784-4ba4-8625-f6c09846d522.png)
+
+#### DATA FLOW DIAGRAM 
+
+![image](https://user-images.githubusercontent.com/63140467/133884059-fde2f14f-3649-4b23-bff8-211bc1d8d769.png)
+
+#### Master Table
+![image](https://user-images.githubusercontent.com/63140467/135840131-45ec1240-bc87-4788-8a16-d1e2f04a2d82.png)
+#### Partition on Master Table
+![image](https://user-images.githubusercontent.com/63140467/135840226-9b75b5c6-34f2-4e1b-948f-ad986d562b55.png)
+
+## CONTRIBUTORS
 * SIDHANT SEHGAL
 * ABHILAS REDDY
 * ALOK MISHRA
+
+## License
+
+This project uses the following license: [MIT License](<https://github.com/rajib1007/Project_3/blob/main/LICENSE>).
